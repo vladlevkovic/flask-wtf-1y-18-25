@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+</head>
+<body>
+    <form action="/dosearch/">
+        <input name="s" type="search" placeholder="Пошук по сайту">
+        <input type="submit" value="Пошук">
+    </form>
+    <h1>Get form</h1>
+    <form action="/getsearch/" method="get">
+        <input type="email" name="mail" placeholder="Email">
+        <input type="submit" value="Subscribe">
+    </form>
+    <h1>Post form</h1>
+    <form action="/postsearch/" method="post">
+        <input type="email" name="mail" placeholder="Email">
+        <input type="submit" value="Subscribe">
+    </form>
+</body>
+</html>
